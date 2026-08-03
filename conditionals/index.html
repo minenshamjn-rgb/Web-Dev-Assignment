@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        line-height: 1.6;
+        background: #f8fafc;
+        color: #111827;
+      }
+      .card {
+        background: white;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+      button {
+        padding: 0.6rem 1rem;
+        border: none;
+        border-radius: 6px;
+        background: #2563eb;
+        color: white;
+        cursor: pointer;
+      }
+      pre {
+        background: #111827;
+        color: #f9fafb;
+        padding: 1rem;
+        border-radius: 8px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Practice</h1>
+
+    <div class="card">
+      <h2>1. Even or Odd Checker</h2>
+      <button onclick="checkEvenOdd()">Check Number</button>
+      <pre id="even-odd-output"></pre>
+    </div>
+
+    <div class="card">
+      <h2>2. Multiplication Table</h2>
+      <button onclick="showTable()">Generate Table</button>
+      <pre id="table-output"></pre>
+    </div>
+
+    <div class="card">
+      <h2>3. FizzBuzz</h2>
+      <button onclick="showFizzBuzz()">Run FizzBuzz</button>
+      <pre id="fizzbuzz-output"></pre>
+    </div>
+
+    <div class="card">
+      <h2>4. Square Pattern</h2>
+      <button onclick="showSquarePattern()">Print Pattern</button>
+      <pre id="square-output"></pre>
+    </div>
+
+    <div class="card">
+      <h2>5. Right-Angled Triangle</h2>
+      <button onclick="showTrianglePattern()">Print Pattern</button>
+      <pre id="triangle-output"></pre>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
